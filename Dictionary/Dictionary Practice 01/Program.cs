@@ -98,3 +98,9 @@ Console.WriteLine(diccionario.ContainsKey("Pasta"));
 Console.WriteLine(diccionario.ContainsKey("Burrito"));
 Console.WriteLine(diccionario.ContainsValue("Italia"));
 Console.WriteLine(diccionario.ContainsValue("Argentina"));
+
+Console.WriteLine();
+Console.WriteLine(diccionario.Count());
+
+// Se puede acceder a un elemento pasandole la key, ya que estan indexados por key // Indexacion en base a la Key
+Console.WriteLine(diccionario["Pizza"]);
