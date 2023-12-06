@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dictionary_Practice_01
+namespace Dictionary_Practice_02
 {
     internal class Auto
     {
@@ -32,6 +32,4 @@ namespace Dictionary_Practice_01
             return sb.ToString();
         }
     }
-
-
 }
