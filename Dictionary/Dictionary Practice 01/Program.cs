@@ -15,7 +15,7 @@ agenda.Add("Mauricio", 123459);
 agenda.Add("Lucas", 2343459);
 
 // Como Recorrer
-Console.WriteLine();       
+Console.WriteLine();
 foreach (KeyValuePair<string, int> kvp in agenda)
 {
     Console.ForegroundColor = ConsoleColor.Green; Console.WriteLine(kvp);
@@ -78,7 +78,7 @@ Console.WriteLine();
 // Para eliminar, se hace por medio de la Key
 diccionario.Remove("Taco");
 Console.WriteLine("---------------");
-foreach(var kvp in diccionario)
+foreach (var kvp in diccionario)
 {
     Console.ForegroundColor = ConsoleColor.Cyan; Console.WriteLine($"Key: {kvp.Key} Value: {kvp.Value}");
 }
@@ -104,3 +104,25 @@ Console.WriteLine(diccionario.Count());
 
 // Se puede acceder a un elemento pasandole la key, ya que estan indexados por key // Indexacion en base a la Key
 Console.WriteLine(diccionario["Pizza"]);
+
+
+//----------------------------------------------------------------------------------------------------
+// Ejemplo 03
+Dictionary<string, List<string>> wishList = new Dictionary<string, List<string>>();
+
+wishList.Add("Tim Corey", new List<string> { "Xbox", "Tesla", "Pizza" });
+wishList.Add("Billy Bob", new List<string> { "PS5", "Ford", "Hoagie" });
+wishList.Add("Mary Jane", new List<string> { "House", "Car", "Sub" });
+
+foreach (var (key, vAlue) in wishList)
+{
+    Console.WriteLine($"{key}'s Whislist: ");
+    foreach (var item in vAlue)
+    {
+        Console.WriteLine($"\t{item}");
+    }
+}
+
+Console.WriteLine(wishList["Tim Corey"][0]);
+Console.WriteLine(wishList["Tim Corey"][1]);
+Console.WriteLine(wishList["Tim Corey"][2]);
