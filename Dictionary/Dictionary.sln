@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary Practice 02", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary Practice 03", "Dictionary Practice 03\Dictionary Practice 03.csproj", "{F539D9BA-A6A8-4F83-B42B-1F8E9A596075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary Practice 04 (Windows Forms)", "Dictionary Practice 04 (Windows Forms)\Dictionary Practice 04 (Windows Forms).csproj", "{94CA4B23-8E81-43D7-868C-C361161B0525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary Practice 04 (Windows Forms)", "Dictionary Practice 04 (Windows Forms)\Dictionary Practice 04 (Windows Forms).csproj", "{94CA4B23-8E81-43D7-868C-C361161B0525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary Practice 05 (TryGetValue)", "Dictionary Practice 05 (TryGetValue)\Dictionary Practice 05 (TryGetValue).csproj", "{462989EC-9D86-4B10-A879-9380D65F846F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{94CA4B23-8E81-43D7-868C-C361161B0525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94CA4B23-8E81-43D7-868C-C361161B0525}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94CA4B23-8E81-43D7-868C-C361161B0525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462989EC-9D86-4B10-A879-9380D65F846F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462989EC-9D86-4B10-A879-9380D65F846F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462989EC-9D86-4B10-A879-9380D65F846F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462989EC-9D86-4B10-A879-9380D65F846F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
